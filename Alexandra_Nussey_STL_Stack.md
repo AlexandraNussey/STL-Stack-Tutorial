@@ -50,18 +50,18 @@ Finally, we'll use the above information to play around with STL Stack in a prog
 using namespace std;
 
 int main() {
-stack<int> S;
+	stack<int> S;
 
-for(int i = 0; i < 10; i++)
-	S.push(i);
+	for(int i = 0; i < 10; i++)
+		S.push(i);
 
-cout << "stack size: " << S.size() << endl;
-cout << "top of stack: " << S.top() << endl;
-cout << endl;
+	cout << "stack size: " << S.size() << endl;
+	cout << "top of stack: " << S.top() << endl;
+	cout << endl;
 	
-S.pop();
-cout << "new stack size: " << S.size() << endl;
-cout << "new top of stack: " << S.top() << endl;
+	S.pop();
+	cout << "new stack size: " << S.size() << endl;
+	cout << "new top of stack: " << S.top() << endl;
 }
 ```
 ```
